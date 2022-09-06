@@ -1,15 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Components/Pages/Home/Home";
 
 function App() {
   return (
     <div>
-      <button class="btn">Button</button>
-      <button class="btn btn-primary">Button</button>
-      <button class="btn btn-secondary">Button</button>
-      <button class="btn btn-accent">Button</button>
-      <button class="btn btn-ghost">Button</button>
-      <button class="btn btn-link">Button</button>
+      <Home></Home>
     </div>
   );
 }
