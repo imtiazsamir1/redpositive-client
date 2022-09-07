@@ -20,7 +20,7 @@ const Home = () => {
     const data = { name, phoneNumber, email, hobbie };
     console.log(data);
     axios
-      .post(" https://still-waters-37250.herokuapp.com/person", data)
+      .post("  https://floating-hollows-43939.herokuapp.com/person", data)
       .then((response) => toast.success("item added"));
   };
   return (

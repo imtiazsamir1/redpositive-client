@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const Checkbox = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch(" https://still-waters-37250.herokuapp.com/person")
+    fetch("  https://floating-hollows-43939.herokuapp.com/person")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
@@ -33,7 +33,7 @@ const Checkbox = () => {
     const proceed = window.confirm("Are you sure you want to delete?");
     if (proceed) {
       console.log("deleting user with id, ", id);
-      const url = ` https://still-waters-37250.herokuapp.com/data/${id}`;
+      const url = `  https://floating-hollows-43939.herokuapp.com/data/${id}`;
       fetch(url, {
         method: "DELETE",
       })
